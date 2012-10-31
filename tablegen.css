@@ -1,0 +1,103 @@
+body
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    margin: 10px;
+    background: #eef;
+}
+p
+{
+    border-top: 2px solid #ccc;
+    color: #777;
+    font-family: 'Trebuchet MS',sans-serif;
+    padding: 10px;
+}
+table
+{
+    background: linear-gradient(to bottom, rgba(190,205,221,1) 0%,rgba(255,255,255,1) 100%);
+    background: -moz-linear-gradient(top, rgba(190,205,221,1) 0%, rgba(255,255,255,1) 100%);
+    background: -ms-linear-gradient(top, rgba(190,205,221,1) 0%,rgba(255,255,255,1) 100%);
+    background: -o-linear-gradient(top, rgba(190,205,221,1) 0%,rgba(255,255,255,1) 100%);
+    background: rgb(190,205,221);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(190,205,221,1)), color-stop(100%,rgba(255,255,255,1)));
+    background: -webkit-linear-gradient(top, rgba(190,205,221,1) 0%,rgba(255,255,255,1) 100%);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#becddd', endColorstr='#ffffff',GradientType=0 );
+    font-size: small;
+    margin: 16px;
+    padding: 4px;
+}
+table td
+{
+    border-bottom: thin dotted #aaa;
+    padding: 3px 5px;
+    cursor: pointer;
+}
+#diagnostic{ padding: 20px; float:right; color: #95f; }
+
+.row_1 td
+{
+    background: #cdf  ;
+    border-bottom: 2px solid #bcd;
+    color: #346 !important;
+    font-family: Consolas,'Lucida Console','DejaVu Sans Mono',monospace;
+}
+.row_2 td
+{
+    border-bottom: 1px solid #bcd;
+    border-top: 1px solid #bcd;
+    font-weight: bold;
+}
+.row_1 td, .row_2 td
+{
+    font-size: 100% !important;
+}
+td
+{
+    font-size: 90%;
+}
+td.field_1
+{
+    background: #fff;
+    color: #012;
+}
+.field_3, .field_4, .field_5, .field_6, .field_7, .field_8
+{
+    border-left: 1px solid #abc;
+}
+td.field_2
+{
+    background: #cfe;
+    color: #094;
+}
+td.field_4
+{
+    color: #888;
+}
+td.field_5
+{
+    background: #ffe;
+    color: #f70;
+}
+td.field_8
+{
+    color: #888;
+}
+td.field_9
+{
+    background: #def;
+    border-left: 2px solid #9cf;
+    color: #026;
+}
+
+.crosshair{background: #4af !important; color: #fff !important; }
+.target{ background: #FFF !important; color:#4af !important; border: }
+
+/*
+.crosshair{background: #9bc !important; color: #567 !important; }
+.target{ background: #FFF !important; color:#025 !important; border: }
+
+.crosshair{background: #025 !important; color: #9ae !important; }
+.target{ background: #000 !important; color:#fc0 !important;   }
+*/
+

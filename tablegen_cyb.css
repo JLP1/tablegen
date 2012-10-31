@@ -1,0 +1,131 @@
+body
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    margin: 10px;
+    background: url('above_blue_sky.jpg') repeat-x top left #fff;
+
+}
+p
+{
+    color: #236;
+    font-family: 'Lucida Console',sans-serif;
+    padding: 20px;
+    line-height: 150%;
+    font-size: small;
+
+}
+table
+{
+    background: none;/* #cdf */
+    border-radius: 10px;
+    font-size: small;
+    margin: 16px;
+    padding: 4px;
+    float: right;
+    border: 1px solid #fff;
+    border-spacing:0px;
+}
+table td
+{
+    border-bottom: thin solid #fff;
+    padding: 8px;
+    cursor: pointer;
+    color:17f;
+}
+#diagnostic{ padding: 20px; float:right; color: #17f; }
+
+.row_1 td
+{
+    background: #fff !important ;
+    border-bottom: 2px solid #789;
+    color: #900 !important;
+    border-radius: 10px;
+    font-family: Consolas,'Lucida Console','DejaVu Sans Mono',monospace;
+}
+.row_2 td
+{
+    border-top: 2px solid #bcd;
+    font-weight: bold;
+}
+.row_1 td, .row_2 td
+{
+    font-size: 100% !important;
+}
+td
+{
+    font-size: 90%;
+}
+td.left
+{   border-bottom: 1px dotted #0c0; 
+     color: #1b6;
+     background-color: #cfc;
+
+}td.field_1
+{
+     color: #17f;
+
+}
+.field_3, .field_4, .field_5, .field_6, .field_7, .field_8
+{
+ }
+td.field_2
+{
+     color: #17f;
+}
+td.field_4
+{
+    color: #17f;
+}
+td.field_5
+{
+     color: #17f;
+}
+td.field_8
+{
+    color: #17f;
+}
+td.field_9
+{
+    background: #acf;
+      color: #17f;
+}
+
+.crosshair{background: #8bf !important; color: #fff !important; }
+.target{ background: #FFF !important; color:#06f !important; border: }
+
+.cal td{
+    font-size: medium; color: #58c; vertical-align: top; text-align: right;
+    width:50px;height: 50px;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#becddd', endColorstr='#ffffff',GradientType=0 );
+
+background: linear-gradient(to bottom, rgba(190,205,221,1) 0%,rgba(255,255,255,1) 100%);
+    background: -moz-linear-gradient(top, rgba(190,205,221,1) 0%, rgba(255,255,255,1) 100%);
+    background: -ms-linear-gradient(top, rgba(190,205,221,1) 0%,rgba(255,255,255,1) 100%);
+    background: -o-linear-gradient(top, rgba(190,205,221,1) 0%,rgba(255,255,255,1) 100%);
+    background: rgb(190,205,221);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(190,205,221,1)), color-stop(100%,rgba(255,255,255,1)));
+    background: -webkit-linear-gradient(top, rgba(190,205,221,1) 0%,rgba(255,255,255,1) 100%);
+    border: 1px solid #79d;
+    border-radius: 5px;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#becddd', endColorstr='#ffffff',GradientType=0 );
+    }
+.cal .row_1 td{
+ background: #fff; height: 16px;
+        border-radius: 10px;
+
+}
+.cal .row_2 td{ background: #acf; height: 20px;
+    color: #379; text-align: left;
+}
+table.cal  { 
+border-spacing:6px; 
+
+ }
+/*
+.crosshair{background: #9bc !important; color: #567 !important; }
+.target{ background: #FFF !important; color:#025 !important; border: }
+
+.crosshair{background: #025 !important; color: #9ae !important; }
+.target{ background: #000 !important; color:#fc0 !important;   }
+*/
+
